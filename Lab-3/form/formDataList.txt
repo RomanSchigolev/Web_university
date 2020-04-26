@@ -1,0 +1,4 @@
+Bob-|-Tea-|-Football-|-./uploads/1.jpg-|-JavaScript-|-HTML-|-CSS-|-Git-|-
+Sam-|-Coffee-|-Basketball-|-./uploads/2.jpg-|-JavaScript-|-Python-|-Algol-|-Git-|-
+Walter-|-Juice-|-Hockey-|-./uploads/3.jpg-|-HTML-|-CSS-|-
+Andrew-|-Tea-|-Volleyball-|-./uploads/4.jpg-|-JavaScript-|-Python-|-Algol-|-Git-|-
