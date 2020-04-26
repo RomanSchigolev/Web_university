@@ -16,21 +16,8 @@ if (isset($_GET["sort"])) {
   $sort = isset($_COOKIE["sort"]) ? $_COOKIE["sort"] : "ASC";
 }
 
-if ($_GET['order'] == 'product_title') {
-  $color = 'red';
-} elseif ($_GET['order'] == 'product_price') {
-  $color = 'blue';
-} elseif ($_GET['order'] == 'manufacturer_name') {
-  $color = 'black';
-} else {
-  $color = 'white';
-}
-
 $productList = getProductList($pdo, $order, $sort);
 $sort == "DESC" ? $sort = "ASC" : $sort = "DESC";
-
-echo "<br>";
-echo $color;
 ?>
 <!DOCTYPE html>
 <html lang="ru">
